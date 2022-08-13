@@ -1,9 +1,6 @@
 # Lambda-Plugins
 Repo for my plugins for [Lambda Client](https://github.com/Lambda-client/Lambda).
 
-## ARCHIVED: Support will __not__ be provided.
-Bottom line: my fork of kami blue with the rest of the modules to be ported vanished for some reason, so I can't really continue those. Also getting really burnt out of client dev stuff
-
 ## List
 
 | Name | Description |
