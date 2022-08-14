@@ -1,7 +1,15 @@
 # Lambda-Plugins
-Repo for my plugins for [Lambda Client](https://github.com/Lambda-client/Lambda).
+This plugin repository was originally made by [ToxicAven](https://github.com/ToxicAven) for the [Lambda Client](https://github.com/Lambda-client/Lambda).
 
-## List
+## Support
+[Issues](https://github.com/nickcat325/AvenPack-cat/issues)
+
+[Discussions](https://github.com/nickcat325/AvenPack-cat/discussions)
+
+## Licence
+GNU Lesser General Public License v3.0
+
+## List of Plugins
 
 | Name | Description |
 | ---- | ----------- |
