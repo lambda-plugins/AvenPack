@@ -13,13 +13,13 @@ internal object UnfocusedFPS: PluginModule(
     pluginMain = UFPSLoader
 ) {
 private val FpsCap by setting("Frame Cap", 20, 5..120, 5)
-
+private val FpsMax by setting("Frame Max", 60, 10..260, 10)
 private var Settings: GameSettings = Minecraft.getMinecraft().gameSettings
 
 init {
     safeListener<TickEvent.ClientTickEvent> {
         if (!Display.isActive()) Settings.limitFramerate = FpsCap
-        else Settings.limitFramerate = 260
+        else Settings.limitFramerate = FpsMax
     }
 }
 }
