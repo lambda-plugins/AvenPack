@@ -2,9 +2,9 @@
 This plugin repository was originally made by [ToxicAven](https://github.com/ToxicAven) for the [Lambda Client](https://github.com/Lambda-client/Lambda).
 
 ## Support
-[Issues](https://github.com/nickcat325/AvenPack-cat/issues)
+[Issues](https://github.com/nickcat325/AvenPack/issues)
 
-[Discussions](https://github.com/nickcat325/AvenPack-cat/discussions)
+[Discussions](https://github.com/nickcat325/AvenPack/discussions)
 
 ## Licence
 GNU Lesser General Public License v3.0
