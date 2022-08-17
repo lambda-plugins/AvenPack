@@ -1,0 +1,9 @@
+{
+  "name": "AvenPack",
+  "version": "2.0",
+  "authors": [ "ToxicAven" ],
+  "description": "Many plugins",
+  "url": "https://github.com/nickcat325/AvenPack",
+  "min_api_version": "3.2",
+  "main_class": "APLoader"
+}
