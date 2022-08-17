@@ -1,12 +1,12 @@
 {
   "name": "UnfocusedFPS",
-  "version": "1.0",
+  "version": "1.1",
   "authors": [
     "ToxicAven"
   ],
   "description": "Reduces framerate when the game is minimized",
   "url": "",
-  "min_api_version": "2.05.01",
+  "min_api_version": "3.2",
   "required_plugins": [],
   "main_class": "UFPSLoader",
   "hot_reload": true
