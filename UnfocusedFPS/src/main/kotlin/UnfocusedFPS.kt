@@ -12,8 +12,8 @@ internal object UnfocusedFPS: PluginModule(
     category = Category.RENDER,
     pluginMain = UFPSLoader
 ) {
-private val FpsCap by setting("Frame Cap", 20, 5..120, 5)
-private val FpsMax by setting("Frame Max", 60, 10..260, 10)
+private val FpsCap by setting("Frame Cap", 5, 5..60, 5)
+private val FpsMax by setting("Frame Max", 260, 10..260, 10)
 private var Settings: GameSettings = Minecraft.getMinecraft().gameSettings
 
 init {
