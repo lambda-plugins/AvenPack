@@ -1,15 +1,12 @@
-# Lambda-Plugins
-This plugin repository was originally made by [ToxicAven](https://github.com/ToxicAven) for the [Lambda Client](https://github.com/Lambda-client/Lambda).
+# How to install
+Download the [AvenPack jar](https://github.com/nickcat325/AvenPack/releases) and move it to .minecraft/lambda/plugins
 
 ## Support
 [Issues](https://github.com/nickcat325/AvenPack/issues)
 
 [Discussions](https://github.com/nickcat325/AvenPack/discussions)
 
-## Licence
-GNU Lesser General Public License v3.0
-
-## List of Plugins
+## List of features
 
 | Name | Description |
 | ---- | ----------- |
@@ -24,3 +21,9 @@ GNU Lesser General Public License v3.0
 | SuperSecretShaders | Pre 1.9 ingame shaders |
 | UnfocusedFPS | Lower your FPS when the game isn't in focus to reduce CPU Usage |
 | VClip | Attempt to clip through blocks vertically |
+
+# AvenPack Lambda Plugin
+This plugin repository was originally made by [ToxicAven](https://github.com/ToxicAven) for the [Lambda Client](https://github.com/Lambda-client/Lambda).
+
+## Licence
+GNU Lesser General Public License v3.0
