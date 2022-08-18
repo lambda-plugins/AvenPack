@@ -1,6 +1,24 @@
 # How to install
 Download the [AvenPack jar](https://github.com/nickcat325/AvenPack/releases) and move it to .minecraft/lambda/plugins
 
+# How to Build (for advanced users)
+<details>
+  <summary>How to build from source on Arch Linux</summary>
+> git clone https://github.com/nickcat325/AvenPack.git
+
+cd AvenPack
+
+chmod +x gradlew
+
+sudo archlinux-java set java-8-openjdk
+
+./gradlew build
+</details>
+<details>
+  <summary>How to build from source with IntelliJ IDEA</summary>
+> Follow the tutorial here. https://github.com/lambda-client/lambda#setup-ide
+</details>
+
 ## Support
 [Issues](https://github.com/nickcat325/AvenPack/issues)
 
