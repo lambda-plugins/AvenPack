@@ -30,7 +30,6 @@ sudo archlinux-java set java-8-openjdk
 | ---- | ----------- |
 | AntiSoundBug | Reloads the sound system to try to fix bugged audio |
 | AntiToast | Hide those annoying tutorial and recipe popups |
-| AutoDupe | Perform the (old, BROKEN) 5B5T Crafting Dupe automatically, requires wooden planks |
 | Backpack | Allow you to hold your enderchest GUI for a short distance |
 | ClientSideTime | Change the time of day for yourself |
 | F3 Spoof | Hide certain parts of your Debug Menu |
