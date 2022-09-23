@@ -14,10 +14,12 @@ internal object UnfocusedFPS: PluginModule(
 ) {
 private val FpsCap by setting("Frame Cap", 5, 5..60, 5)
 private val FpsMax by setting("Frame Max", 260, 10..260, 10)
-private var Settings: GameSettings = Minecraft.getMinecraft().gameSettings
-
+private val Vsync by setting("Vsync", true)
+private var Settings = Minecraft.getMinecraft().gameSettings
 init {
     safeListener<TickEvent.ClientTickEvent> {
+        Settings.enableVsync = Vsync
+        Display.setVSyncEnabled(Settings.enableVsync)
         if (!Display.isActive()) Settings.limitFramerate = FpsCap
         else Settings.limitFramerate = FpsMax
     }
