@@ -6,7 +6,6 @@ internal object APLoader: Plugin() {
         // Load any modules, commands, or HUD elements here
         modules.add(AntiSoundBug)
         modules.add(AntiToast)
-        modules.add(AutoDupe)
         modules.add(Backpack)
         modules.add(ClientSideTime)
         modules.add(F3Spoof)
