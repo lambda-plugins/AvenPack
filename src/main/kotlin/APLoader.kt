@@ -4,16 +4,16 @@ internal object APLoader: Plugin() {
 
     override fun onLoad() {
         // Load any modules, commands, or HUD elements here
-        modules.add(AntiSoundBug)
         modules.add(AntiToast)
-        modules.add(Backpack)
         modules.add(ClientSideTime)
+        commands.add(EChest)
         modules.add(F3Spoof)
         modules.add(FogColor)
-        modules.add(Parkour)
+        commands.add(FOV)
+        commands.add(ReloadSounds)
         modules.add(SelfWeb)
         modules.add(SuperSecretSettings)
-        modules.add(UnfocusedFPS)
+        modules.add(UnfocusedSettings)
         commands.add(VClip)
     }
 

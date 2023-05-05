@@ -26,18 +26,19 @@ sudo archlinux-java set java-8-openjdk
 
 ## List of features
 
-| Name | Description |
-| ---- | ----------- |
-| AntiSoundBug | Reloads the sound system to try to fix bugged audio |
-| AntiToast | Hide those annoying tutorial and recipe popups |
-| Backpack | Allow you to hold your enderchest GUI for a short distance |
-| ClientSideTime | Change the time of day for yourself |
-| F3 Spoof | Hide certain parts of your Debug Menu |
-| Parkour | Jump automatically at the very edge of blocks |
-| SelfWeb | Places a web in your feet |
-| SuperSecretShaders | Pre 1.9 ingame shaders |
-| UnfocusedFPS | Lower your FPS when the game isn't in focus to reduce CPU Usage |
-| VClip | Attempt to clip through blocks vertically |
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| ReloadSounds (Previously AntiSoundBug) | Command | Reloads the sound system to try to fix bugged audio |
+| AntiToast | Module | Hide those annoying tutorial and recipe popups |
+| EChest (Previously Backpack) | Command | Displays your saved enderchest GUI |
+| ClientSideTime | Module | Change the time of day for yourself |
+| F3 Spoof | Module | Hide certain parts of your Debug Menu |
+| FogColor | Module | Change the fog color |
+| FOV | Command | Set your FOV to a specific value |
+| SelfWeb | Module | Places a web in your feet |
+| SuperSecretShaders | Module | Pre 1.9 ingame shaders |
+| UnfocusedSettings (Previously UnfocusedFPS) | Module | Lower your video settings when the game isn't in focus to reduce CPU and RAM Usage |
+| VClip | Command | Attempt to clip through blocks vertically |
 
 # AvenPack Lambda Plugin
 This plugin repository was originally made by [ToxicAven](https://github.com/ToxicAven) for the [Lambda Client](https://github.com/Lambda-client/Lambda).

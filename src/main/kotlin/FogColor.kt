@@ -7,7 +7,7 @@ import com.lambda.client.event.listener.listener
 internal object FogColor: PluginModule(
     name = "FogColor",
     category = Category.RENDER,
-    description = "Change the color of render fog",
+    description = "Change the fog color",
     pluginMain = APLoader
 ) {
     private val color by setting("Color", ColorHolder(111, 166, 222), false)
