@@ -16,8 +16,8 @@ private val FpsMax by setting("Frame Max", 260, 10..260, 10)
 private val FpsCap by setting("Frame Cap", 5, 5..60, 5)
 private val Vsync by setting("Vsync", true)
 private val ChunkControl by setting("Chunk Control", false)
-private val ChunkMax by setting("Chunk Max", 8, 2..64, 1, { ChunkControl == true })
-private val ChunkCap by setting("Chunk Cap", 2, 2..64, 1, { ChunkControl == true })
+private val ChunkMax by setting("Chunk Max", 8, 1..64, 1, { ChunkControl == true })
+private val ChunkCap by setting("Chunk Cap", 1, 1..64, 1, { ChunkControl == true })
 private var Settings = Minecraft.getMinecraft().gameSettings
 init {
     safeListener<TickEvent.ClientTickEvent> {

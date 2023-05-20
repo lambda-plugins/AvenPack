@@ -11,6 +11,7 @@ internal object APLoader: Plugin() {
         modules.add(FogColor)
         commands.add(FOV)
         commands.add(ReloadSounds)
+        commands.add(RenderDistance)
         modules.add(SelfWeb)
         modules.add(SuperSecretSettings)
         modules.add(UnfocusedSettings)
