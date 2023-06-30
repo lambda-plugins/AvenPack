@@ -16,6 +16,7 @@ internal object APLoader: Plugin() {
         modules.add(SuperSecretSettings)
         modules.add(UnfocusedSettings)
         commands.add(VClip)
+        hudElements.add(BaseHuntLine)
     }
 
     override fun onUnload() {
