@@ -4,7 +4,7 @@ import com.lambda.client.event.listener.listener
 import net.minecraftforge.fml.common.gameevent.TickEvent
 
 internal object AntiToast: PluginModule(
-    name = "ModuleExample",
+    name = "AntiToast",
     category = Category.MISC,
     description = "Hides Minecraft tutorial toasts",
     pluginMain = APLoader

@@ -22,7 +22,9 @@ internal object SuperSecretSettings: PluginModule(
         }
         onEnable /*listener<TickEvent.ClientTickEvent>*/ {
             if (OpenGlHelper.shadersSupported && mc.renderViewEntity is EntityPlayer) {
-                mc.entityRenderer.shaderGroup.deleteShaderGroup()
+                if (mc.entityRenderer.shaderGroup != null) {
+                    mc.entityRenderer.shaderGroup.deleteShaderGroup()
+                }
                 try {
                     mc.entityRenderer.loadShader(ResourceLocation("shaders/post/" + getShaderLocation() + ".json"))
                     activeShader = getShaderLocation()
@@ -30,13 +32,13 @@ internal object SuperSecretSettings: PluginModule(
                     e.printStackTrace()
                 }
 
-            } else /*if (mc.entityRenderer.shaderGroup != null && mc.currentScreen == null)*/ {
+            } else if (mc.entityRenderer.shaderGroup != null && mc.currentScreen == null) {
                 mc.entityRenderer.shaderGroup.deleteShaderGroup()
                 disable()
             }
         }
         onDisable {
-            mc.entityRenderer.shaderGroup.deleteShaderGroup()
+            if (mc.entityRenderer.shaderGroup != null) mc.entityRenderer.shaderGroup.deleteShaderGroup()
             disable()
         }
     }
