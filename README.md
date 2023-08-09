@@ -30,6 +30,7 @@ sudo archlinux-java set java-8-openjdk
 | ---- | ---- | ----------- |
 | ReloadSounds (Previously AntiSoundBug) | Command | Reloads the sound system to try to fix bugged audio |
 | AntiToast | Module | Hide those annoying tutorial and recipe popups |
+| Base Hunt Line | HUD Element | Helps keep you a cirtain distance from the highway. (useful for base hunting) |
 | EChest (Previously Backpack) | Command | Displays your saved enderchest GUI |
 | ClientSideTime | Module | Change the time of day for yourself |
 | F3 Spoof | Module | Hide certain parts of your Debug Menu |
