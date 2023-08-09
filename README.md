@@ -36,6 +36,7 @@ sudo archlinux-java set java-8-openjdk
 | F3 Spoof | Module | Hide certain parts of your Debug Menu |
 | FogColor | Module | Change the fog color |
 | FOV | Command | Set your FOV to a specific value |
+| renderdistance | Command | Set your render distance to a specific value |
 | SelfWeb | Module | Places a web in your feet |
 | SuperSecretShaders | Module | Pre 1.9 ingame shaders |
 | UnfocusedSettings (Previously UnfocusedFPS) | Module | Lower your video settings when the game isn't in focus to reduce CPU and RAM Usage |
