@@ -30,13 +30,13 @@ internal object BaseHuntLine : PluginLabelHud(
             alignCoords -> 0.5f
             else -> 0.0f
         }
-        val x = Math.abs(pos.x-alignValue)
-        val z = Math.abs(pos.z-alignValue)
+        val x = Math.abs(pos.x-alignValue)//absolute value. Negative to positive. Positive stays positive.
+        val z = Math.abs(pos.z-alignValue)//^^^
         val baseLine = when {
-            x<=z/2 -> roundOrInt(x+offset)//straghts
-            x/2>z -> roundOrInt(z-offset)//straghts
-            x<=z -> roundOrInt(x-z+offset)//diagonal
-            x>z ->  roundOrInt(x-z-offset)//diagonal
+            x/2>=z -> roundOrInt(z-offset)//Straights, x side
+            x<=z/2 -> roundOrInt(x+offset)//Straights, z side
+            x>=z ->  roundOrInt(x-z-offset)//Diagonal, x side
+            x<z -> roundOrInt(x-z+offset)//Diagonal, z side
             else -> 0
         }
         return StringBuilder().run {
