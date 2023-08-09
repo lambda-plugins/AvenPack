@@ -4,6 +4,6 @@
   "authors": [ "ToxicAven" ],
   "description": "Many plugins",
   "url": "https://github.com/nickcat325/AvenPack",
-  "min_api_version": "3.4.0-1",
+  "min_api_version": "3.4.0",
   "main_class": "APLoader"
 }
