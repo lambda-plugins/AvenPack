@@ -1,21 +1,49 @@
-# Lambda-Plugins
-Repo for my plugins for [Lambda Client](https://github.com/Lambda-client/Lambda).
+# How to install
+Download the [AvenPack jar](https://github.com/nickcat325/AvenPack/releases) and move it to .minecraft/lambda/plugins
 
-## ARCHIVED: Support will __not__ be provided.
-Bottom line: my fork of kami blue with the rest of the modules to be ported vanished for some reason, so I can't really continue those. Also getting really burnt out of client dev stuff
+# How to Build (for advanced users)
+<details>
+  <summary>How to build from source on Arch Linux</summary>
+> git clone https://github.com/nickcat325/AvenPack.git
 
-## List
+cd AvenPack
 
-| Name | Description |
-| ---- | ----------- |
-| AntiSoundBug | Reloads the sound system to try to fix bugged audio |
-| AntiToast | Hide those annoying tutorial and recipe popups |
-| AutoDupe | Perform the (old, BROKEN) 5B5T Crafting Dupe automatically, requires wooden planks |
-| Backpack | Allow you to hold your enderchest GUI for a short distance |
-| ClientSideTime | Change the time of day for yourself |
-| F3 Spoof | Hide certain parts of your Debug Menu |
-| Parkour | Jump automatically at the very edge of blocks |
-| SelfWeb | Places a web in your feet |
-| SuperSecretShaders | Pre 1.9 ingame shaders |
-| UnfocusedFPS | Lower your FPS when the game isn't in focus to reduce CPU Usage |
-| VClip | Attempt to clip through blocks vertically |
+chmod +x gradlew
+
+sudo archlinux-java set java-8-openjdk
+
+./gradlew build
+</details>
+<details>
+  <summary>How to build from source with IntelliJ IDEA</summary>
+> Follow the tutorial here. https://github.com/lambda-client/lambda#setup-ide
+</details>
+
+## Support
+[Issues](https://github.com/nickcat325/AvenPack/issues)
+
+[Discussions](https://github.com/nickcat325/AvenPack/discussions)
+
+## List of features
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| ReloadSounds (Previously AntiSoundBug) | Command | Reloads the sound system to try to fix bugged audio |
+| AntiToast | Module | Hide those annoying tutorial and recipe popups |
+| Base Hunt Line | HUD Element | Helps keep you a cirtain distance from the highway. (useful for base hunting) |
+| EChest (Previously Backpack) | Command | Displays your saved enderchest GUI |
+| ClientSideTime | Module | Change the time of day for yourself |
+| F3 Spoof | Module | Hide certain parts of your Debug Menu |
+| FogColor | Module | Change the fog color |
+| FOV | Command | Set your FOV to a specific value |
+| renderdistance | Command | Set your render distance to a specific value |
+| SelfWeb | Module | Places a web in your feet |
+| SuperSecretShaders | Module | Pre 1.9 ingame shaders |
+| UnfocusedSettings (Previously UnfocusedFPS) | Module | Lower your video settings when the game isn't in focus to reduce CPU and RAM Usage |
+| VClip | Command | Attempt to clip through blocks vertically |
+
+# AvenPack Lambda Plugin
+This plugin repository was originally made by [ToxicAven](https://github.com/ToxicAven) for the [Lambda Client](https://github.com/Lambda-client/Lambda).
+
+## Licence
+GNU Lesser General Public License v3.0
